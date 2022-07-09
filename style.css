@@ -52,15 +52,9 @@ body,html{
 }
 .content a{
     background: #85c1ee;
-<<<<<<< HEAD
     padding: 16px 16px;
     text-decoration: none;
     font-size: 15px;
-=======
-    padding: 3px 3px;
-    text-decoration: none;
-    font-size: 11px;
->>>>>>> 0eb75866c2a83aff2d8c2ea618aa6d0aa8f359f3
     border-radius: 15px;
 }
 .content a:hover{
