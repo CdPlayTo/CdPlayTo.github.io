@@ -4,6 +4,7 @@ body,html{
     width: 100%;
     height: 100vh;
     font-family: sans-serif;
+    display: flex;  
 }
 .Section_top{
     width: 100%;
@@ -14,7 +15,7 @@ body,html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
+    display: flex;  
     justify-content: center;
 
 }
@@ -22,33 +23,38 @@ body,html{
     position: absolute;
     top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 280%);
     text-transform: uppercase;
+
+
+    display: flex;  
 
 }
 
 
 .contentwe{
     position: absolute;
-    top: -2200%;
+    top: 100%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -700%);
     text-transform: uppercase;
-
+    display: flex;  
 }
 .content h1{
     color: #fff;
     font-size: 40px;
-    letter-spacing: 3px;
+    letter-spacing: 10px;
+    display: flex;  
 }
 .content h1 span{
     color: rgb(0, 0, 0);
+    display: flex;  
 }
 .content a{
     background: #85c1ee;
-    padding: 10px 10px;
+    padding: 16px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     border-radius: 15px;
 }
 .content a:hover{
